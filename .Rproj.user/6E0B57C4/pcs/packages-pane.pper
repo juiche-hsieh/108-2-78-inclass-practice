@@ -1,0 +1,7 @@
+{
+    "installOptions" : {
+        "installDependencies" : true,
+        "installFromRepository" : true,
+        "libraryPath" : "C:/Users/s1005.LAPTOP-D4IRE30D/Documents/R/R-3.6.3/library"
+    }
+}
