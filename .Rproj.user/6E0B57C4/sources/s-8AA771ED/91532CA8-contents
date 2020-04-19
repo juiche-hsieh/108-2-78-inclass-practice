@@ -107,6 +107,18 @@ summary(cars)
 sum(logi1)
 ```
 
+```{r}
+num <- c(1.5, 2, 3)
+int <- c(1L, 3L, -2L)
+char <- c("1.5","2","3")
+logi <- c(T,T,F)
+
+typeof(num)
+typeof(int)
+typeof(char)
+typeof(logi)
+```
+
 ## Including Plots
 
 You can also embed plots, for example:
