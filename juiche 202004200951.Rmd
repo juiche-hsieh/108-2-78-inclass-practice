@@ -53,6 +53,39 @@ numericInterger+2
 studentId <- c(410873031,410873065)
 as.character(studentId)
 ```
+```{r}
+browseURL("https://docs.google.com/spreadsheets/d/1EAG49qDKPWWi0ebkVr29TLrvVnoBPfkvxYY-J3xLAHY/edit#gid=458686645")
+```
+
+```{r}
+library(lubridate)
+```
+```{r}
+library(lubridate)
+tpeTime <- ymd_hms("2020-03-18 13:52:40",
+        tz="Asia/Taipei")
+```
+
+```{r}
+pgTime <- mdy_hms("Mar.18,2020,05:52:40",
+       tz="Europe/Lisbon")
+```
+
+```{r}
+with_tz(tpeTime, tzone="UTC")
+with_tz(pgTime, tzone="UTC")
+```
+```{r}
+with_tz(tpeTime, tzone="Europe/Paris")
+with_tz(pgTime, tzone="Europe/Paris")
+```
+```{r}
+class(tpeTime)
+typeof(tpeTime)
+
+as.numeric(tpeTime)
+as.numeric(pgTime)
+```
 
 ```{r cars}
 summary(cars)
